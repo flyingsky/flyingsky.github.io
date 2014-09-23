@@ -1,3 +1,5 @@
+---
+---
 ## Basic
 On iOS we may need relayout our app when keyboard was shown. To handle it, we can observer below four notifications to know when the keyboard is shown or hidden.
 
