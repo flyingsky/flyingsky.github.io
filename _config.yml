@@ -5,7 +5,7 @@ author: Ramon Liu
 description: "Every day work and thought"
 baseurl: ""
 url: "/"
-google_analytics:
+google_analytics: 'UA-32555592-2'
 animated: false
 
 # Build settings
@@ -15,3 +15,4 @@ paginate: 3
 sass:
   compressed: true
 
+excerpt_separator: "\n\n"

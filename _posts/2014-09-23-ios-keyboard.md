@@ -2,7 +2,6 @@
 layout: post
 categories: ios
 ---
-
 ## Basic
 On iOS we may need relayout our app when keyboard was shown. To handle it, we can observer below four notifications to know when the keyboard is shown or hidden.
 
@@ -10,6 +9,8 @@ On iOS we may need relayout our app when keyboard was shown. To handle it, we ca
     UIKeyboardDidShowNotification
     UIKeyboardWillHideNotification
     UIKeyboardDidHideNotification
+
+
   
 But we should know the keyboard related notifications are not always posted. `UIKeyboardWillShowNotification/UIKeyboardDidShowNotification` only be posted when the keyboard is changed, including the keyboard visibility and keyboard size change. For example:
 
