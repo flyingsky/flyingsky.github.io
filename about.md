@@ -1,12 +1,12 @@
 ---
 layout: page
-title: About Ramon
+title: About Me
 permalink: /about/
 ---
 
-This is my private blog based on github.io.
+This is Ramon's private blog based on github.io.
 
 Thanks to the following:
 
-* [Jekyll](http://jekyllrb.com)
-* [Pixyll](https://github.com/johnotander/pixyll)
+* Site generator [Jekyll](http://jekyllrb.com)
+* Jekyll theme [Pixyll](https://github.com/johnotander/pixyll)
