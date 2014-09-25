@@ -7,6 +7,7 @@ baseurl: ""
 url: "/"
 google_analytics: 'UA-32555592-2'
 animated: false
+disqus_shortname: 'flyingsky'
 
 # Build settings
 markdown: kramdown
