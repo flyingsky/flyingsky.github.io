@@ -12,7 +12,7 @@ disqus_shortname: 'flyingsky'
 # Build settings
 markdown: kramdown
 permalink: pretty
-paginate: 3
+paginate: 10
 sass:
   compressed: true
 
