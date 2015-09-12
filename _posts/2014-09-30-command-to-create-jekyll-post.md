@@ -9,8 +9,10 @@ It's boring to manully create jekyll post and setup prety format, so I find two 
 
 For nodejs user: <https://www.npmjs.org/package/jekyll-cli>
 
+`npm install -g jekyll-cli`
+
 To create a post just enter below command:
 
-`jkl "post Test To Create A Post"`
+`jkl new "post Test To Create A Post"`
 
 For ruby user: <http://jonasforsberg.se/2012/12/28/create-jekyll-posts-from-the-command-line>

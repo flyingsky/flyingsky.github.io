@@ -53,6 +53,8 @@ The solution is call video.play before your ajax call in the click event handler
 
 Same to AudioContext.
 
+### Resources
+[Apple iOS html video](https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/Device-SpecificConsiderations/Device-SpecificConsiderations.html#//apple_ref/doc/uid/TP40009523-CH5-SW1)
 
 
 
