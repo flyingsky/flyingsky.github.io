@@ -78,7 +78,7 @@ This will ensure that the the correct relative path is constructed for your asse
 
 ### Contact Form
 
-If you'd like to keep the contact form, which uses <http://formtoemail.com/>, you need register an account on it with the email in _config.xml, when you get the html from it, you need replace the  hidden fields user_id and form_id in contact form.
+If you'd like to keep the contact form, which uses <http://formtoemail.com/>, you need register a free account with limit 100 forms/month. When you get the html from it, you need replace the  hidden fields user_id and form_id in contact form.
 
 ### Page Animation
 
