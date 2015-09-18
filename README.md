@@ -100,3 +100,6 @@ If you would like to use comments for each post, you can register an account on 
 * [Refills](http://refills.bourbon.io/)
 * [Solarized](http://ethanschoonover.com/solarized)
 * [Animate.css](http://daneden.github.io/animate.css/)
+
+## TODO:
+1. https://mandrillapp.com/api/docs/ use this to send email from contact without third party limit service.
