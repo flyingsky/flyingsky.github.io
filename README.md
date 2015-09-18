@@ -10,6 +10,10 @@ If you don't have Jekyll already installed, you will need to go ahead and do tha
 $ gem install jekyll
 ```
 
+To run blog on local run
+
+`jekyll serve`
+
 ### Fork, then clone
 
 Fork the repo, and then clone it so you've got the code locally.
@@ -74,7 +78,7 @@ This will ensure that the the correct relative path is constructed for your asse
 
 ### Contact Form
 
-If you'd like to keep the contact form, which uses <http://forms.brace.io/>, you need register an account on it with the email in _config.xml
+If you'd like to keep the contact form, which uses <http://formtoemail.com/>, you need register an account on it with the email in _config.xml, when you get the html from it, you need replace the  hidden fields user_id and form_id in contact form.
 
 ### Page Animation
 
