@@ -14,6 +14,12 @@ To run blog on local run
 
 `jekyll serve`
 
+### install jkl
+
+1. `npm install -g jekyll-cli`
+
+2. `jkl post 'Test To Create A Post'`
+
 ### Fork, then clone
 
 Fork the repo, and then clone it so you've got the code locally.
