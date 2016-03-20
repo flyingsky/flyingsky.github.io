@@ -27,14 +27,14 @@ Video on iOS cannot be played automatically, because sometimes user uses cellula
     {% highlight html %}
     <button onclick="playVideo()">Play Video</button>
     {% endhighlight %}
-    
+
     {% highlight js %}
     function playVideo() {
         var video = document.getElementById("yourVideoId");
         video.play();
     }
     {% endhighlight %}
-    
+
 You cannot play video in ajax callback, because it's not in out of event handler. For example, in my case, when user click my play button, I will ask server to unzip a package which contains the target video, when it's unzipped and uploaded to s3, I will start to play that video.
 
 The solution is call video.play before your ajax call in the click event handler. Now the video has nothing to play, because the video.src is empty. Then call ajax to get video information, when the response is back, set video.src correctly.
@@ -53,11 +53,17 @@ The solution is call video.play before your ajax call in the click event handler
 
 Same to AudioContext.
 
+### Video play inline in UIWebView on iPhone
+
+You have to use attribute "webkit-playsinline" in video tag
+
+```
+  <video webkit-playsinline src="{youtubeUrl}" style="width: 100%; height: 100%;" controls="true" autoplay="" />
+```
+
+Also you have to set `allowsInlineMediaPlayback` to `true` in UIWebView.
+
+If you don't do that, it would play in full screen on iPhone.
+
 ### Resources
 [Apple iOS html video](https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/Device-SpecificConsiderations/Device-SpecificConsiderations.html#//apple_ref/doc/uid/TP40009523-CH5-SW1)
-
-
-
-
-
-
