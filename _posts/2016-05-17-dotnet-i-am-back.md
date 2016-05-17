@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2016-05-17 07:24:09 -0700
-title: DotNet: I'm back
+title: "DotNet: I'm back"
 ---
 
 A side project requires Asp.Net. I don't want to go back to DotNet, though it's a good platform, but I don't touch Windows for 4 years, I don't use it for 8 years. Now I cannot image work with Windows, not Mac. As an engineer, we should keep curiosity for everything, right? The more important is Windows changes a lot in recent year, more open. That's why DotNet can work on Mac. Now let's setup everything on Mac.
