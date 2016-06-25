@@ -5,6 +5,9 @@ title: prepare-fb-interview
 ---
 Most engineers may want to join Facebook. It's better to prepare before your interview so you can have bigger chance to get offer.
 
+## Check my question list
+[my question list](http://flyingsky.github.io/2016/03/16/questions/)
+
 ## LeetCode
 [https://leetcode.com/](https://leetcode.com/)
 

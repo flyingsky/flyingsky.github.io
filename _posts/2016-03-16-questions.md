@@ -1,12 +1,12 @@
 ---
 layout: post
 date: 2016-03-16 01:24:35 -0700
-title: questions1
+title: Interview Questions
 ---
 
 Recent days knows a lot of interview questions, some of them are interesting.
 
-## Question1
+## Question 1
 We have `n` houses and `m` colors, to paint house `i` with color `j`, we need pay money `prices[i][j]`. Note adjacent houses cannot use same color to paint. Find the cheapest way to paint the `n` houses with `m` colors.
 
 
