@@ -124,7 +124,7 @@ Design an algorithm to encode a list of strings to a string. The encoded string 
 
 See [Encode and Decode Strings](http://buttercola.blogspot.com/2015/09/leetcode-encode-and-decode-strings.html), this is also a leetcode question, but is only visible to subscriber.
 
-# Question 18 (G, 45 mins)
+## Question 18 (G, 45 mins)
 A map is 2-dimension array filled with 0 or 1. Find the count of connected blocks filled with 1. Suppose each item is connected to the top, left, right, bottom item. For example below map, we have 3 blocks filled with 1.
 
     0 0 0 1 0
@@ -135,14 +135,14 @@ A map is 2-dimension array filled with 0 or 1. Find the count of connected block
 
 Further, if we have function like, update(row, col), which set cell at row, col to 1, now return how many count of blocks with 1.
 
-# Question 19 (G, 45 mins)
+## Question 19 (G, 45 mins)
 Design question, suppose web page has one input text and submit button, enter some text in the input then click submit button to post the data to server side; server side to return result; client should display the result as a table.
 
 Next step, if there is million result on the server, what you need to do? Yes, paging the result. Please design the server response and the client pager, which may just have previous and next page button. Finish the click event handler for those two buttons.
 
 Next step, if it needs much time to return the response, such as 1 hour, what need to do on the client and server side. Yes, we can use io.socket to communiate between client and server to show the progress. If server doesn't want to keep so many connections, client can poll periodically.
 
-# Question 20 (G, 45 mins)
+## Question 20 (G, 45 mins)
 JS stuff. Implement function extend(BaseClass, SubClass, props).
 
 Another one, check if input is correct UTF-8 codings. such as function checkUTFEncodings(bytes).
@@ -151,12 +151,12 @@ Parameter bytes is ByteArray. The UTF-8 definition you can find from [wiki](http
 Actually both questions are simple, but I mess them up :(, first one I cannot make 'new SubClass() instanceof BaseClass' return true.
 The second one I didn't finish in time because I made code complex, it should use bit operation.
 
-# Question 21 (G, 45 mins)
+## Question 21 (G, 45 mins)
 Input any string and a collection of words, return the shortest word which is beginning with the input string in our word collection. Such as input string "car", and we have words "car", "care", we need return "car"; if input string is "ca", we should return "car" too; if input is "da", we should return null.
 
 This is [Trie](https://en.wikipedia.org/wiki/Trie), see leetcode [prefix tree](https://leetcode.com/problems/implement-trie-prefix-tree/) and [word search 2](https://leetcode.com/problems/word-search-ii/)
 
-# Question 22 (G, 45 mins)
+## Question 22 (G, 45 mins)
 Input a collection of strings, like below,
 
     [
