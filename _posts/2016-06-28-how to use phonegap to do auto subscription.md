@@ -66,6 +66,7 @@ You need to set store.validator to your server receipt validation url or functio
 The most important thing to notice is that your app send the whole product information to server side, your server side should get the "data.transaction.appStoreReceipt" and send it to apple store to do validate. You can find more information from [apple doc](https://developer.apple.com/library/ios/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html#//apple_ref/doc/uid/TP40010573-CH104-SW1).
 
 I believe you will be confused by that doc, because it's not clear. In conclusion:
+
 1. You can always use same token sent to apple store to validate if you subscribe one app with same account. That is the appStoreReceipt in transaction of our request data. This property is set by cordova-plugin-purchase plugin. If you read the source code, you can see it gets the value with the same code from apple doc mentioned before.
 
 2. Base on step #1, you need save that token in your server database, so you can reuse it in future validation.
