@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2016-06-28 13:13:53 -0700
-title: How To Use Phonegap To Auto Subscribe
+title: How To Use PhoneGap To Auto Subscribe
 ---
 
 Phonegap was once popular solution to build ios app with web skills. But now there are more better choices, such as [React Native](https://facebook.github.io/react-native/) or [NativeScript](https://www.nativescript.org/), but I think Phonegap's advantage is a lot of plugins. In the past half year, I spent a lot time to use [cordova-plugin-purchase](https://github.com/j3k0/cordova-plugin-purchase) to support auto subscription, though this plugin has some problem and author doesn't provide server receipt validation code or even explanation, but it seems it is still the best purchase plugin. After a lot struggling, finally I figure it how to do it.
@@ -67,7 +67,9 @@ The most important thing to notice is that your app send the whole product infor
 
 I believe you will be confused by that doc, because it's not clear. In conclusion:
 1. You can always use same token sent to apple store to validate if you subscribe one app with same account. That is the appStoreReceipt in transaction of our request data. This property is set by cordova-plugin-purchase plugin. If you read the source code, you can see it gets the value with the same code from apple doc mentioned before.
+
 2. Base on step #1, you need save that token in your server database, so you can reuse it in future validation.
+
 3. When you send that token to apple store, you can get response from apple store, see more from above apple doc link. The most important field is status and latest_receipt_info. Field 'status' show if the token is valid, if it's valid, you need check the latest_receipt_info, which contains history receipt information. You need loop them and find the "expiration_date" or "expires_date_ms" to make sure this utc time is after your current time. If yes, it's valid, else it's expired. Second if you find field "cancellation_date", it means this subscription is cancelled.
 
 Yes, that's the whole server side process. Note you need save the original permanent token in your db. In my server side, I use php and use [php plugin](https://github.com/aporat/store-receipt-validator) to send and parse apple store request and response.
