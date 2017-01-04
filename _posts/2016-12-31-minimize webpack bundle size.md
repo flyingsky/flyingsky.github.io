@@ -4,7 +4,9 @@ date: 2016-12-31 08:24:47 -0800
 title: Minimize Webpack JS bundle size for ReactJS
 ---
 
-I noticed my Webpack js bundle size is 1.2MB for a long time, recent holiday finally have time to solve it. As I know ReactJS min file is just 135KB, why bundle file is so large, even I don't have a lot of code. Most articles online just suggest use webpack config, like `NODE_ENV=production` and `-p`, and minify. Because I use this [react seed](https://github.com/badsyntax/react-seed) to create my project, so they are already in my project. Because I use some third party library. I think every ReactJS project has a lot third party libraries, if it happens on me, it should happens on every project. I want to know which third party lib contributes the the most size, google "reactjs webpack bundle file size analyze" and find this tool [webpack-bundle-size-analyzer](https://github.com/robertknight/webpack-bundle-size-analyzer).
+I noticed my Webpack js bundle size is 1.2MB for a long time, recent holiday finally have time to solve it and it was 788kb after some improvement, after gzip it was just 215KB.
+
+As I know ReactJS min file is just 135KB, why bundle file is so large, even I don't have a lot of code. Most articles online just suggest use webpack config, like `NODE_ENV=production` and `-p`, and minify. Because I use this [react seed](https://github.com/badsyntax/react-seed) to create my project, so they are already in my project. Because I use some third party library. I think every ReactJS project has a lot third party libraries, if it happens on me, it should happens on every project. I want to know which third party lib contributes the the most size, google "reactjs webpack bundle file size analyze" and find this tool [webpack-bundle-size-analyzer](https://github.com/robertknight/webpack-bundle-size-analyzer).
 
 ### Run analyze
 
