@@ -24,7 +24,7 @@ To run blog on local run
 
 Fork the repo, and then clone it so you've got the code locally.
 
-### Modify the _config.yml
+### Modify the `_config.yml`
 
 The `_config.yml` located in the root of the Pixyll directory contains all of the configuration details
 for the Jekyll site. The defaults are:
@@ -92,11 +92,11 @@ If you would like to add a [fade-in-down effect](http://daneden.github.io/animat
 
 ### Google Analytics
 
-If you would like to use google anlytics, register an account on <http://www.google.com/analytics/>, then get your code and replace the google_analytics value in _config.xml.
+If you would like to use google anlytics, register an account on <http://www.google.com/analytics/>, then get your code and replace the google_analytics value in `_config.xml`.
 
 ### Comments
 
-If you would like to use comments for each post, you can register an account on <https://disqus.com/> and get your shortname, then replace the value `disqus_shortname` in _config.xml.
+If you would like to use comments for each post, you can register an account on <https://disqus.com/> and get your shortname, then replace the value `disqus_shortname` in `_config.xml`.
 
 
 ## Thanks to the following:
