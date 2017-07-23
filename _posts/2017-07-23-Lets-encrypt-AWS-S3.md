@@ -2,6 +2,7 @@
 layout: post
 date: 2017-07-23 15:02:48 -0800
 title: Let's encrypt for S3
+excerpt: Suppose you already know how to host static web site via AWS CloudFront and S3, and you have your own domain name, now you want to have SSL to support https. As developer, I like to use free resources to do everything, like this site with github, and Lets Encrypt for SSL.
 ---
 
 Suppose you already know how to host static web site via AWS CloudFront and S3, and you have your own domain name, now you want to have SSL to support https. As developer, I like to use free resources to do everything, like this site with github, and [Lets Encrypt](https://letsencrypt.org/) for SSL.
@@ -29,4 +30,4 @@ certbot --agree-tos -a certbot-s3front:auth \
 Then you can access our site https://www.teeterpal.com. If it doesn't work, you can check if your site works well without SSL before.
 
 ### Auto renew
-To automate the renewal process without prompts (for example, with a monthly cron), you can add the certbot parameters `--renew-by-default --text`. Or even run above command to generate new SSL key, it will prompt "do you want to renew your SSL". LetsEncrypt's SSL is expired every 6 months. I have no idea how easy to regenerate automatically every 6 months without a dedicated EC2 instance. 
+To automate the renewal process without prompts (for example, with a monthly cron), you can add the certbot parameters `--renew-by-default --text`. Or even run above command to generate new SSL key, it will prompt "do you want to renew your SSL". LetsEncrypt's SSL is expired every 6 months. I have no idea how easy to regenerate automatically every 6 months without a dedicated EC2 instance.
