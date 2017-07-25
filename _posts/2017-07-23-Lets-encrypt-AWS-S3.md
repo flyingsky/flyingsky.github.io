@@ -1,8 +1,13 @@
 ---
 layout: post
-date: 2017-07-23 15:02:48 -0800
+date: '2017-07-23 15:02:48 -0800'
 title: Let's encrypt for S3
-excerpt: Suppose you already know how to host static web site via AWS CloudFront and S3, and you have your own domain name, now you want to have SSL to support https. As developer, I like to use free resources to do everything, like this site with github, and Lets Encrypt for SSL.
+excerpt: >-
+  Suppose you already know how to host static web site via AWS CloudFront and
+  S3, and you have your own domain name, now you want to have SSL to support
+  https. As developer, I like to use free resources to do everything, like this
+  site with github, and Lets Encrypt for SSL.
+published: true
 ---
 
 Suppose you already know how to host static web site via AWS CloudFront and S3, and you have your own domain name, now you want to have SSL to support https. As developer, I like to use free resources to do everything, like this site with github, and [Lets Encrypt](https://letsencrypt.org/) for SSL.
@@ -31,3 +36,8 @@ Then you can access our site https://www.teeterpal.com. If it doesn't work, you 
 
 ### Auto renew
 To automate the renewal process without prompts (for example, with a monthly cron), you can add the certbot parameters `--renew-by-default --text`. Or even run above command to generate new SSL key, it will prompt "do you want to renew your SSL". LetsEncrypt's SSL is expired every 6 months. I have no idea how easy to regenerate automatically every 6 months without a dedicated EC2 instance.
+
+### How to update index.html
+To use CloudFront to host SPA, you need set index.html or any other html page as home page and error page, so it always hits index.html. But CloudFront will cache your resource, how to make sure CloudFront always returns latest index.html? You can invalidate your index.html wheneven it's changed, see more detail from [here](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html). You can use [gulp-cloudfront-invalidate](https://www.npmjs.com/package/gulp-cloudfront-invalidate) to invlaidate CloudFront resource in your build process. Note first 1000 invlaidation requests are free every month, $0.005 per extra request. Each request can invalidate more resources.
+
+Another solution is using lambda@edge, but it will applies to all view request.
