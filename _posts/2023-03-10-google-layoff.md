@@ -22,4 +22,4 @@ My manager L7, my manager's manager is L7 too, they didn't have any information 
 
 My friend and me once applied the Area 120, unfortunately we failed. Now it saves my job in Google. Actually I want to get layoff from Google, because I have the 4-year cliff and the severance package is best in the bay area. 
 
-Be yourself, no worry, everything could be good or bad.
+Be yourself, no worry, everything could be good or bad. The layoff makes Google stock up 5%, but later the ChatGDP and [the bad demo](https://www.npr.org/2023/02/09/1155650909/google-chatbot--error-bard-shares) causes 10% off.
