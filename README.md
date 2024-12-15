@@ -4,10 +4,16 @@ If you're completely new to Jekyll, I recommend checking out the documentation a
 
 ### Installing Jekyll
 
-If you don't have Jekyll already installed, you will need to go ahead and do that.
+Install jekyll and project dependency manager, bundle.
 
 ```
-$ gem install jekyll
+$ gem install jekyll bundle
+```
+
+Then install the project dependency
+
+```
+$ bundle install
 ```
 
 To run blog on local run
