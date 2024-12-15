@@ -4,7 +4,7 @@ date: 2024-12-15 02:11:00 -0800
 title: FlyingSky Blog Works again
 ---
 
-I decided to update my flyingsky github.io to support multiple categories except the existing post, so I could write different topics, such as some personal life thoughts in Chinese, my native language. I find the [jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2) and its [category example](https://github.com/sverrirs/jekyll-paginate-v2/tree/master/examples/02-category). Once I copy the [same config](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/examples/02-category/_config.yml) and push to my github page, my https://flyingsky.github.io is down. After trying several times to fix it without local setup, the problem is still there. Because it's down for several weeks, I lost 0.02 cents from Google Adsense. To earn that back, I decided to save this site.
+I decided to update my flyingsky github.io to support multiple categories except the existing post, so I could write different topics, such as some personal life thoughts in Chinese, my native language. I find the jekyll-paginate-v2 has a good category example. Once I copy the it's example to update my site, this website, https://flyingsky.github.io, is down. After trying several times to fix it without local setup, the problem is still there. Because it's down for several weeks, I lost 0.02 cents from Google Adsense. To earn that back, I decided to save this site.
 
 ### Set up local environment
 
