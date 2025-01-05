@@ -2,6 +2,7 @@
 layout: post
 date: 2016-03-21 14:09:23 -0700
 title: host angularjs with s3 and cloudfront
+categories: home
 ---
 
 For SPA application like AngularJS project, it's easy to use s3 to host it. But if you want to use SSL, you have to use CloudFront for help, because S3 doesn't support SSL directly. But there is some special issue to solve when you host AngularJS project, such as url issue for html5mode and enable SSL for CloudFront.

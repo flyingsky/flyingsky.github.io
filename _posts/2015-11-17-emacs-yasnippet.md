@@ -2,6 +2,7 @@
 layout: post
 date: 2015-11-17 12:59:40 -0800
 title: Emacs yasnippet
+categories: home
 ---
 
 Emacs yasnippet provides a lot of snippets for different program language, even markdown file. Also you can add your snippets if you like. For example, when I write blog with code, I don't want to enter {% raw %} "{% highlight javascript %} {% endhighlight %}" {% endraw %} everytime, with yasnippet help, I just need enter `highlight` then press 'Tab', the highlight snippet code is generated automatically.

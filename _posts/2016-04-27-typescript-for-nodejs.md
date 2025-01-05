@@ -2,6 +2,7 @@
 layout: post
 date: 2016-04-27 13:30:43 -0700
 title: typescript-for-nodejs
+categories: home
 ---
 
 ## ts-node

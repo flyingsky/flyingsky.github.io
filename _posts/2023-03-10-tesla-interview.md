@@ -2,6 +2,7 @@
 layout: post
 date: 2023-03-10 10:02:38 -0700
 title: Tesla Interview
+categories: home
 ---
 
 Tesla frontend software engineer for factory inventory, which uses Angular. In the telephone interview, a manager asked some highlevel Angular related questions, such as:

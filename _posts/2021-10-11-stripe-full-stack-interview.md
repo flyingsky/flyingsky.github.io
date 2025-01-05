@@ -2,6 +2,7 @@
 layout: post
 date: 2021-10-11 10:02:38 -0700
 title: Stripe Full-Stack Eng interview
+categories: home
 ---
 
 Stripe interview is an interesting experience, which is different to the LeetCode style. It's great to know the process and it will help you to get the position next time at least.

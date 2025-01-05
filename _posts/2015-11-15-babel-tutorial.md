@@ -2,6 +2,7 @@
 layout: post
 date: 2015-11-15 21:27:22 -0800
 title: Babel Tutorial For NodeJS
+categories: home
 ---
 
 Babel.js is a js compiler which translates ES6 to ES5 which is implemented by all moreden browsers. Actually babel.js should be gone when ES6 is supported by most browsers. But before that, babel.js can help us to use ES6 new features before that happens. Why do we need use ES6 features right now? Because ES6 make our life easier for javascript.

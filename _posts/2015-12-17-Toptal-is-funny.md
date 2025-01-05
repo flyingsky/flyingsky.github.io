@@ -2,6 +2,7 @@
 layout: post
 date: 2015-12-17 00:03:21 -0800
 title: Toptal is funny
+categories: home
 ---
 
 [Toptal](http://www.toptal.com/web) is a freelencer site which provides top 3% web freelencers. To join it, you have to pass their test first. There are a lot of people waiting to join it, so you have to wait for some time until some screener will come to talk and interview you. If want to get priority, you have to do something like what I'm doing right now, writing a blog about Toptal, to show you're eager to join it, and it's so great to join it. So everyone read this blog is moved to join it.

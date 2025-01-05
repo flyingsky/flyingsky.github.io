@@ -2,7 +2,7 @@
 layout: post
 date: 2014-09-30 16:26:00 -0700
 title: command line to create jekyll post
-categories: jekyll
+categories: jekyll home
 ---
 
 It's boring to manully create jekyll post and setup prety format, so I find two command line tools to help you create post easily.

@@ -2,6 +2,7 @@
 layout: post
 date: 2024-07-06 10:02:38 -0700
 title: Create Chrome Extension to Bulk Delete GitHub Repos
+categories: home
 ---
 
 I noticed I have many test repos in GitHub but forgot to delete them. The GitHub only provides UX to delete repo one by one. Why not have a Chrome extension to automatic the deletion process to save the time?

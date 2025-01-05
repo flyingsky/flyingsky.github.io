@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: typescript nodejs
+categories: typescript nodejs home
 ---
 
 * [TypesScript](http://www.typescriptlang.org/)

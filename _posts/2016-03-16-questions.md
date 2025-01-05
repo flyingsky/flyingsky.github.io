@@ -2,6 +2,7 @@
 layout: post
 date: 2016-03-16 01:24:35 -0700
 title: Interview Questions
+categories: home
 ---
 
 Recent days knows a lot of interview questions, some of them are interesting.

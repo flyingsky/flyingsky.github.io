@@ -2,6 +2,7 @@
 layout: post
 date: 2015-09-11 22:45:44 -0700
 title: redshift disk full
+categories: home
 ---
 
 Today fail to copy data from s3 json file to redshift, check the stl_error and stl_load_errors tables, I find some error like "disk full error". Also I check the redshift aws console, I find the Percentage of Disk Usage is 100%.

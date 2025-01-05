@@ -2,6 +2,7 @@
 layout: post
 date: 2015-04-01 10:51:39 -0700
 title: How To Write Chinese Characters
+categories: home
 ---
 
 You can find a good online chinese dictionary from [here](http://www.zdic.net/z/25/js/8FA8.htm), but this site only provides the flash file to teach you how to write a Chinese character. To support most mobile devices, we can use [Google Swiffy](https://developers.google.com/swiffy/) to convert it into html5.

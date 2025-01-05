@@ -2,6 +2,7 @@
 layout: post
 date: 2018-01-26 23:26:42 -0700
 title: Javascript Detect Chinese and Japanese Characters
+categories: home
 ---
 
 ElasticSearch search behavior is so weird. It works well to search any language except Chinese and Japanese, like Chinese "餐馆" and Japanese "大戸屋". The workaround in front end is add double quotes to those characters. In usually Chinese, Japanese and Korean are named CJK, which are similar, but Korean it seems works fine. So here we discuss about how to detect Chinese and Japanese in JS.

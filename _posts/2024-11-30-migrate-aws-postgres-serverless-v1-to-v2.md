@@ -2,6 +2,7 @@
 layout: post
 date: 2024-11-30 00:03:00 -0800
 title: Migrate AWS Postgres Serverless V1 to V2
+categories: home
 ---
 
 It's Thanksgiving holiday. Happy Thanksgiving to everyone! Hope you have a fantacy time with your family. In 2024 Thankgiving dinner time, we shared the thanks within my family. I appreciate my wife and my kids give me a great experience every day, happy or sad, sunny or rainy, together or separate, healthy or diseased, no matter what day it is. I will keep cherishing and enjoying every day.

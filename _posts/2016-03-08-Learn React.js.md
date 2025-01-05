@@ -2,6 +2,7 @@
 layout: post
 date: 2016-03-08 17:00:35 -0800
 title: Learn React.js
+categories: home
 ---
 
 Finally have chance to learn React.js, because we need choose one from Angular.js 2 and React.js. To learn React.js, I find some good articles to start.

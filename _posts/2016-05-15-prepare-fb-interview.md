@@ -2,6 +2,7 @@
 layout: post
 date: 2016-05-15 22:37:14 -0700
 title: prepare-fb-interview
+categories: home
 ---
 Most engineers may want to join Facebook. It's better to prepare before your interview so you can have bigger chance to get offer. Also I want to let you know Google and Facebook interviews are not as difficult as you think. Don't be scared by someone's idea, such like "how to get google offer". Of course you have bigger possibility to get offer if you can know everything including the much complex data structure and algorithms, like B tree, B+ tree, A* algorithm ... But you must know Graph or Tree DFS/BFS.
 

@@ -2,6 +2,7 @@
 layout: post
 date: 2016-05-26 15:03:24 -0700
 title: rxjs introduction
+categories: home
 ---
 
 RxJS is a JS implementation of Reactive

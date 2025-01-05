@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: grunt nodejs
+categories: grunt nodejs home
 ---
 
 [Grunt](http://gruntjs.com/) is a very cool task runner tool, like [Ant](http://ant.apache.org/) in java world. Now introduce how to automatic all nodejs web work, ExpressJs and Angular. From it you can learn much basic important grunt skill to use in your real project development.

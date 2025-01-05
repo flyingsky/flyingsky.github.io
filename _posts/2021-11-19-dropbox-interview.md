@@ -2,6 +2,7 @@
 layout: post
 date: 2021-11-19 10:02:38 -0700
 title: Dropbox Full-Stack Eng interview
+categories: home
 ---
 
 Dropbox full stack interview is not LeetCode style, so it focuses on the design/debug/real work related coding, which is similar to Stripe. But the interview question setup is easier than the Stripe. Stripe problems are too long and requires much time to read. Also it depends on much context, such as the debug problem about preact.

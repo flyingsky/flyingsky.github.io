@@ -2,6 +2,7 @@
 layout: post
 date: 2017-01-04 01:02:48 -0800
 title: How to host single page app
+categories: home
 ---
 
 Github IO Page or AWS S3 and CloudFront.

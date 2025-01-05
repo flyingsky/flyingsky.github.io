@@ -2,6 +2,7 @@
 layout: post
 date: 2023-03-10 10:02:38 -0700
 title: Google Layoff 2023
+categories: home
 ---
 
 ![Google Onboarding](/assets/IMG_7494.jpeg){:width="50%"}

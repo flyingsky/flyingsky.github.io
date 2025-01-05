@@ -2,6 +2,7 @@
 layout: post
 date: 2016-06-28 13:13:53 -0700
 title: How To Use PhoneGap To Auto Subscribe
+categories: home
 ---
 
 Phonegap was once popular solution to build ios app with web skills. But now there are more better choices, such as [React Native](https://facebook.github.io/react-native/) or [NativeScript](https://www.nativescript.org/), but I think Phonegap's advantage is a lot of plugins. In the past half year, I spent a lot time to use [cordova-plugin-purchase](https://github.com/j3k0/cordova-plugin-purchase) to support auto subscription, though this plugin has some problem and author doesn't provide server receipt validation code or even explanation, but it seems it is still the best purchase plugin. After a lot struggling, finally I figure it how to do it.

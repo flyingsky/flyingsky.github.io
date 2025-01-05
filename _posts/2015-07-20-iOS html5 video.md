@@ -2,6 +2,7 @@
 layout: post
 date: 2015-07-20 23:26:42 -0700
 title: iOS html5 video
+categories: home
 ---
 
 Some iOS html5 video experience. Actually I spent much time to handle some special cases for iOS html5 video element, but always forget after finishing my work. Next time I need to spend time to figure out the same issue. Now blog it to avoid to forget it again :)

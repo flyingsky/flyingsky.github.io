@@ -1,11 +1,4 @@
-<!-- <a href="{{ site.baseurl }}/">Home</a>
+<a href="{{ site.baseurl }}/">Home</a>
 <a href="{{ site.baseurl }}/chinese">Chinese</a>
 <a href="{{ site.baseurl }}/about/">About</a>
-<a href="{{ site.baseurl }}/contact/">Contact</a> -->
-
-
-{% for my_page in site.pages %}
-{% if my_page.title and my_page.autogen == nil %}
-<a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-{% endif %}
-{% endfor %}
+<a href="{{ site.baseurl }}/contact/">Contact</a>

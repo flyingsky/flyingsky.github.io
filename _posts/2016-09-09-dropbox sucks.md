@@ -2,6 +2,7 @@
 layout: post
 date: 2016-09-09 16:13:05 -0700
 title: dropbox sucks
+categories: home
 ---
 
 Several years ago I thought Dropbox is cool when I first used it, cool and clean UI, easy to use on Mac. But these two days I tried to sync some folder from Linux, I have hell experience, not only because of the market, but also it's product.

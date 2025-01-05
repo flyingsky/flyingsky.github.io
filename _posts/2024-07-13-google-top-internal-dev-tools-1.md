@@ -2,6 +2,7 @@
 layout: post
 date: 2024-07-13 10:02:38 -0700
 title: Google Top Internal Dev Tools - Section 1
+categories: home
 ---
 
 I joined Google as software engineer in year 2018, about 6 years to today. This is the longest tenure in my career life so far. There are a lot of experiences I could list after these years. We can discuss many topics, like daily work, internal development tools, career growth, salary and compensation, etc. Today we start with some simple topics: the Google internal tools for daily work.

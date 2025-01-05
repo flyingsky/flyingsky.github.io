@@ -2,6 +2,7 @@
 layout: post
 date: 2015-01-12 15:31:55 -0800
 title: S3 cross domain issue
+categories: home
 ---
 
 It seems a simple to solve s3 cross domain issue, but I spent a lot of time to fix it. Maybe you will have similar issue, please try my solution if it works, if not, please let me know.

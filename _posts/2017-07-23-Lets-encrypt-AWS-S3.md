@@ -2,6 +2,7 @@
 layout: post
 date: '2017-07-23 15:02:48 -0800'
 title: Let's encrypt for S3
+categories: home
 excerpt: >-
   Suppose you already know how to host static web site via AWS CloudFront and
   S3, and you have your own domain name, now you want to have SSL to support

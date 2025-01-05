@@ -2,6 +2,7 @@
 layout: post
 date: 2016-12-31 08:24:47 -0800
 title: Minimize Webpack JS bundle size for ReactJS
+categories: home
 ---
 
 I noticed my Webpack js bundle size is 1.2MB for a long time, recent holiday finally have time to solve it and it was 788kb after some improvement, after gzip it was just 215KB.

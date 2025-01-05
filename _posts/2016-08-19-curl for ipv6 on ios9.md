@@ -2,6 +2,7 @@
 layout: post
 date: 2016-08-19 01:07:43 -0700
 title: curl for ipv6 on ios9
+categories: home
 ---
 
 A old ios app is submitted to review with minor changes. But it's rejected because doesn't support ipv6 on iOS9. It shows our app cannot access internet in ipv6 setttings. At the beginning I think it's AWS S3 issue, maybe it doesn't support ipv6. Later I find it's curl lib issue after debug. Actually obviously it should be curl lib issue, because in theory nothing needs to be changed for internet access in ipv6.

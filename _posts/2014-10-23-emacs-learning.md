@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2014-10-23 11:23:38 -0700
-title: emacs-learning
+title: emacs-learning home
 ---
 
 You can download purcell emacs.d from [here](https://github.com/purcell/emacs.d). It's really a good emacs configuration. I like use it. And the most important thing I learnt is use 'M-x' to select your command to avoid rememeber fast key.
