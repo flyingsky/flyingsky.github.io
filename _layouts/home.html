@@ -1,7 +1,5 @@
 ---
 layout: default
-pagination: 
-  enabled: true
 ---
 
 <div class="home">
@@ -13,7 +11,7 @@ pagination:
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
           <h3 class="h2 post-title">{{ post.title }}</h3>
           <p class="post-summary">
-	    {{ post.excerpt}}
+	    {{ post.excerpt | strip_html}}
 	  </p>
         </a>
       </div>
