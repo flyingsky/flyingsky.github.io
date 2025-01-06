@@ -50,3 +50,11 @@ Once I submit all changes to the github, the home page is empty. Check the repos
 Open the link, it mentions I change the jekyll version to 4.x and use unsupported plugin like jekyll-paginate-v2. To resolve that issue, I have to use github customized workflow follwing https://jekyllrb.com/docs/continuous-integration/github-actions/#setting-up-the-action.
 
 Once you set up that, everything works well again. Finally I could earn 0.02$ per quarter from Google Adsense.
+
+### Pagination for different categories
+
+All the default posts are listed in the [index.md](https://github.com/flyingsky/flyingsky.github.io/blob/master/index.md) and the extra chinese category posts are listed by [chinese.md](https://github.com/flyingsky/flyingsky.github.io/blob/master/categories/chinese.md).
+
+In the beginning, the https://flyingsky.github.io/chinese url doesn't work, because by default it's another url like `category/chinese`, I have to add the `permalink: /chinese/` in the front matter to the chinese.md to use the expected url. To avoid the chinese category posts are listed in the home page, I have to add the `home` category to all the old posts and add the category filter into the front matter of home [index.md](https://github.com/flyingsky/flyingsky.github.io/blob/master/index.md) to make sure it only paginate the home category posts.
+
+Another tricky thing is the posts under [chinese/_posts](https://github.com/flyingsky/flyingsky.github.io/tree/master/chinese/_posts) are not generated because I don't add the `YYYY-MM-DD` prefix into the post file name. That's a silly issue, at least Jekyll should show some error or warning to remind the user.
