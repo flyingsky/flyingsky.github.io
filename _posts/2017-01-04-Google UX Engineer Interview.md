@@ -2,7 +2,7 @@
 layout: post
 date: 2017-01-04 00:32:46 -0800
 title: Google UX Engineer Interview
-categories: home
+categories: home google
 ---
 
 This is total different engineer interview experience, and I was disappointed by the interview because it absolutely not like Google interview style. Maybe another tiny part was I didn't have chance to say NO to Google :)

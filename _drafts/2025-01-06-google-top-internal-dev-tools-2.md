@@ -8,6 +8,7 @@ I joined Google as software engineer in year 2018, about 6 years to today. This 
 
 Google is a giant internet company and tons of code. Most dev tools are developed internally. That's why some googlers would say the Google development work is total different to the external. Overall I like all the internal google tools, which are better than most external popular tools in my mind. You can also find some Google internal vs external tools from https://github.com/jhuangtw/xg2xg. Because Google has a lot of internal tools, the Noogler, who is in google less than 1y, has to spend some time to learn how to use them in the beginning.
 
+### No 3: fig
 
 ### No 3: Critique
 

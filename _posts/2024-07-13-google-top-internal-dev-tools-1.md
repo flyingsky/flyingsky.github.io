@@ -1,8 +1,8 @@
 ---
 layout: post
 date: 2024-07-13 10:02:38 -0700
-title: Google Top Internal Dev Tools - Section 1
-categories: home
+title: Google Top Internal Dev Tools - CodeSearch and Cider-V
+categories: home google
 ---
 
 I joined Google as software engineer in year 2018, about 6 years to today. This is the longest tenure in my career life so far. There are a lot of experiences I could list after these years. We can discuss many topics, like daily work, internal development tools, career growth, salary and compensation, etc. Today we start with some simple topics: the Google internal tools for daily work.
@@ -52,3 +52,6 @@ Now the Cloud IDE is not that new any more, such as [CodeSandbox](https://codesa
 7. Integrates with many Google internal tools, like build tool, bug tracking tool, etc. As a Noogler, it's very hard to believe all the google code is build on the server side, which seems is very slow comparing to the client side building. For example, I have a nodejs project in local. In development time, the web server is running in local, the client or web server code change could be real time refreshed in my browser, because everything builds and runs in local. But it's a different development mode in Google. Everything is in Cloud. I change the code in the browser, the code is sync to your server, then builds and runs in the server side. It always needs longer time to see the changes, especially you change some code which has a lot of dependencies. If the local latency is less than 1s, the google development requires 5s. Similar to the unit test. But eventually you will get use to it. If it's building slowlly, just go to grab a coffee or have a chat with your colleagues.
 8. Code assistant. It helps in some cases, but I don't think it's close to do some real job because it's hard to understand the whole project context. You know each project in Google is very complex. So you can only use it to write some simple isolated util function.
 9. Debug is always not easy. I feel only iOS debugging is good enough, which is similar to the XCode. The best solution for server code debugging is console.log because the micro services architecture in google is very hard to support debugging. If you depends on step by step debug a lot, you may need to fallback to the old time, console.log. That's a nightmare, but you will get used to it. Also you may need depend on your unit test more.
+
+> [!NOTE] Update 1/6/2025
+> Cider-V could support the iOS development and debug. But Android support is not as google as iOS, so many engineers still use Android Studio instead. But personally I prefer to use Cider-V for coding but Android Studio for running the app only, because Cider-V integrates with Google dev environment much better than any other IDE.
