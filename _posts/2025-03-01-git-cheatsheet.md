@@ -27,20 +27,23 @@ The daily workflow is like below:
 1. `git switch {branch}`
     Switch to the existing target branch. Add `-d` to create a new branch.
 
-2. `git pull origin {branch}`
+2. `git branch -d {branch}`
+    Delete local branch. `git push origin --delete <branch_name>` delete remote branch.
+
+4. `git pull origin {branch}`
     Sync the current branch to the remote latest.
 
-3. `git rebase {dest-branch}`
+5. `git rebase {dest-branch}`
     You're at `src-branch` and you want to make the `src-branch` on top of the `dest-branch`. Git branch may have many commits and we want to merge them into one, we could use `git rebase -i HEAD~N`, the `N` is the top N commits to merge. Then you could select the first commit as `pick`, other commits `s` or `squash`, then select the right commit message for your merged commits. Unfortunately I don't see any 
 UI tool supports this merge feature. In Google fig, you could use `hg fold`, `hg` is the fig command like git. The Cider-V provides the UI to make it very easy.
 
-4. `git push --force`
+6. `git push --force`
    Once I commit my local changes, I use this to push it to remote. Before you have to set up the remote branch via `git push -u origin {branch}`.
 
-5. `git log --oneline --graph --all`
+7. `git log --oneline --graph --all`
     Show log in oneline. I don't use it too much because I prefer to use the UI tool from the VSCode extension.
    
-7. `git cherry-pick`
+8. `git cherry-pick`
    branch1 has commitA and commitB, move commitB to another branch2, we could use `git cherry-pick` like below.
    ```
     git checkout branch1  
@@ -53,7 +56,7 @@ UI tool supports this merge feature. In Google fig, you could use `hg fold`, `hg
     git push origin branch2  
    ```
 
-8. Break large commit to small ones
+9. Break large commit to small ones
    My branch1 has large commitA, now I try to break it into commitB and commitC.
    ```
     git checkout branch1  
