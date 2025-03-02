@@ -5,10 +5,20 @@ class AutoLinkUrls < Jekyll::Converters::Markdown
     # Use the default Markdown converter first
     content = super(content)
 
-    # Regex to match plain URLs (not already inside <a> tags)
-    url_pattern = %r{(?<!href=["'])\bhttps?://[^\s<]+}
+    # Improved regex pattern:
+    # - Match URLs starting with http:// or https://
+    # - Avoid capturing trailing punctuation like .,?! if they are not part of the URL
+    url_pattern = %r{
+      (?<!href=["'])       # Ensure it's not already inside an <a> tag
+      \b                  # Word boundary
+      (https?:\/\/[^\s<]+) # Capture the URL (anything not a space or '<')
+      (?=[.,!?)]?(?:\s|$)) # Allow ending punctuation but exclude it from the match
+    }xi
 
-    # Replace plain URLs with anchor tags
-    content.gsub(url_pattern) { |url| "<a href=\"#{url}\" target=\"_blank\">#{url}</a>" }
+    # Replace plain URLs with anchor tags, ensuring proper escaping
+    content.gsub(url_pattern) do |match|
+      url = match.strip.gsub(/[.,!?)]$/, '') # Strip trailing punctuation
+      "<a href=\"#{url}\" target=\"_blank\">#{url}</a>"
+    end
   end
 end
