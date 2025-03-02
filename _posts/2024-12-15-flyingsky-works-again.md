@@ -7,6 +7,17 @@ categories: home
 
 I decided to update my flyingsky github.io to support multiple categories except the existing post, so I could write different topics, such as some personal life thoughts in Chinese, my native language. I find the jekyll-paginate-v2 has a good category example. Once I copy the it's example to update my site, this website, https://flyingsky.github.io, is down. After trying several times to fix it without local setup, the problem is still there. Because it's down for several weeks, I lost 0.02 cents from Google Adsense. To earn that back, I decided to save this site.
 
+### Update 3/2/2025
+
+When publish new post in recent time, I got below github workflow action error, see more details from https://github.com/flyingsky/flyingsky.github.io/actions/runs/13604030725/job/38033402088.
+
+> Error: The current runner (ubuntu-24.04-x64) was detected as self-hosted because the platform does not match a GitHub-hosted runner image (or that image is deprecated and no longer supported).
+>In such a case, you should install Ruby in the $RUNNER_TOOL_CACHE yourself, for example using https://github.com/rbenv/ruby-build
+>You can take inspiration from this workflow for more details: https://github.com/ruby/ruby-builder/blob/master/.github/workflows/build.yml
+
+The reason is this github pages uses the customized workflow and it's not compatible to the latest github pages requirement. To resolve it you could follow the https://jekyllrb.com/docs/continuous-integration/github-actions/#setting-up-the-action to regenerate the workflow, and use the new jekyll.yml to replace the old one at https://github.com/flyingsky/flyingsky.github.io/blob/master/.github/workflows/jekyll.yml.
+
+
 ### Set up local environment
 
 I didn't change the setup for a long time since the [first setup in 2014](https://flyingsky.github.io/2014/09/steps-to-setup-blog-with-jekyll.html). That's why I even forget how to start. After some investigation, I noticed I have to install the Ruby first and it's better to use ruby management tool like rvm. It's easy to instll rvm, but it always has problem to install ruby 3.x like some native library build failures, even it's success to install ruby, the jekyll could not install successfully. Ask the help from Gemini and Chatgpt, both could not provide real workable solution. When I was exploring in the darkness, I noticed maybe I should highlight the installation on Mac. Asking [Gemini 2 from the Google AI Studio](https://aistudio.google.com/), it provides below answer to recommend `rbenv` and `asdf` instead. It's very easy to install ruby and jekyll.
