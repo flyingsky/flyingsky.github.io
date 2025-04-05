@@ -5,8 +5,8 @@ class AutoLinkUrls < Jekyll::Converters::Markdown
     # Use the default Markdown converter first
     content = super(content)
 
-    # Regex to match plain URLs (not already inside <a> tags)
-    url_pattern = %r{(?<!href=["'])\bhttps?://[^\s<]+}
+    # Regex to match plain URLs (not already inside <a> or <img> tags)
+    url_pattern = %r{(?<!\b(?:href|src)=["'])\bhttps?://[^\s<]+}
 
     # Replace plain URLs with anchor tags
     content.gsub(url_pattern) do |url|
