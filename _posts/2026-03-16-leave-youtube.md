@@ -5,7 +5,7 @@ title: Goodbye YouTube
 categories: home
 ---
 
-![Kirkwood](/assets/2026-03-16-01.png){:width="50%"}
+![Kirkwood](/assets/2026-03-16-01.JPEG){:width="50%"}
 
 After 6+ years in YouTube, it's the time to say goodbye. It's not that hard, because every one is replacable in this size of company. Everyone is just colleague, not like the close friends. But the world is small and I'm still in Google, so we may see each other some day.
 
@@ -27,4 +27,8 @@ This ski season I went to ski alone twice. The feeling is mixed. One side I can 
 
 It happened a traffic accident during the driving to the ski resort. The worst accident I experienced but I was safe, just the car body had some dents, requiring $6.3k to fix because I don't have the collision insurance. It's too expensive to have it and I think I drive safely all the time. But you never know when the accident will happen.
 
+![Unknown River](/assets/2026-03-16-02.JPEG){:width="50%"}
+
 Anyway I'm still thankful all the family members are safe, just lost some money.
+
+![My Tesla Model Y](/assets/2026-03-16-03.JPEG){:width="50%"}
