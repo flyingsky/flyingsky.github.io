@@ -5,6 +5,8 @@ title: Goodbye YouTube
 categories: home
 ---
 
+![Kirkwood](/assets/2026-03-16-01.png){:width="50%"}
+
 After 6+ years in YouTube, it's the time to say goodbye. It's not that hard, because every one is replacable in this size of company. Everyone is just colleague, not like the close friends. But the world is small and I'm still in Google, so we may see each other some day.
 
 ### Decide to leave
