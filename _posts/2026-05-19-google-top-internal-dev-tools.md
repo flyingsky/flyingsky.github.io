@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2026-05-19 10:02:38 -0700
-title: Google Top Internal Dev Tools - Section 2
+title: Google Top Internal Dev Tools - Piper and Fig
 categories: home
 ---
 
@@ -15,6 +15,8 @@ Fig is the client of Piper. It integrates with Google online code editor, Cider 
 Fig also provides UI tool to rebase one CL to another CL, so it's easy to move the CL. All these features could be found by [git-branchless](https://github.com/arxanas/git-branchless), such as `git move`, `git record`, `git amend`, `git reword`, `git split`. But you have to use command line. For me, I like the UI tool because it's easy without any memory of commands.
 
 Fig has a useful feature is branch file, which moves one file to another file and keep the history. From the Code Search, you can find the old history of the original file. Github has some similar weak feature.
+
+You can watch more details from [this video](https://www.youtube.com/watch?v=W71BTkUbdqE&t=645s). Now Google is developing another source version control, [JJ](https://github.com/jj-vcs/jj). I don't know why Google invest on this, maybe just it can do!
 
 ### No 4: Snipit and Screencast
 Snipit is a Chrome extension to take a screenshot of your browser or desktop window and save it online. Once the screenshot is generated, you can draw some arrows/shapes and some text to the screenshot, then you can share it. It's very useful to share the issue and data.
