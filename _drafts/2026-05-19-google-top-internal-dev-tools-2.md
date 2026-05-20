@@ -13,6 +13,8 @@ Fig is the client of Piper. It integrates with Google online code editor, Cider 
 
 Fig also provides UI tool to rebase one CL to another CL, so it's easy to move the CL. All these features could be found by [git-branchless](https://github.com/arxanas/git-branchless), such as `git move`, `git record`, `git amend`, `git reword`, `git split`. But you have to use command line. For me, I like the UI tool because it's easy without any memory of commands.
 
+Fig has a useful feature is branch file, which moves one file to another file and keep the history. From the Code Search, you can find the old history of the original file. Github has some similar weak feature.
+
 ### No 4: Snipit and Screencast
 Snipit is a Chrome extension to take a screenshot of your browser or desktop window and save it online. Once the screenshot is generated, you can draw some arrows/shapes and some text to the screenshot, then you can share it. It's very useful to share the issue and data.
 
