@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-05-31 10:02:38 -0700
+date: 2026-05-31 01:02:38 -0700
 title: Software Enginnering at Google
 categories: home
 ---
