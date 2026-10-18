@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-05-31 01:02:38 -0700
+date: 2026-10-18 00:25:38 -0700
 title: Microsoft Claims My Chrome Extension Violates Trademark Policy 
 categories: home
 ---
